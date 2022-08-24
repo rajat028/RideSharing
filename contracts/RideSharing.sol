@@ -1,18 +1,15 @@
 //SPDX-License-Identifier: Unlicense
 pragma solidity ^0.8.0;
 
-import "hardhat/console.sol";
-
 contract RideSharing {
-
     struct Ride {
-        uint rideId;
+        uint256 rideId;
         string fromLocation;
         string toLocation;
         string description;
-        uint rideAmount;
-        uint advanceRideAmount;
-        uint seatsAvailable;
+        uint256 rideAmount;
+        uint256 advanceRideAmount;
+        uint256 seatsAvailable;
         address payable[] rideCustomers;
         RideStatus rideStatus;
     }
@@ -23,9 +20,4 @@ contract RideSharing {
     }
 
     mapping(address => Ride) private rides;
-
-    function createRide(string name) {
-        
-    }
-
 }

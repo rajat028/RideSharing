@@ -1,4 +1,6 @@
 - Feature Set
+	- Create a Token which will act as a payment.
+
 	- Rider can post a ride 
 		- From Location
 		- To Location
@@ -7,7 +9,7 @@
 		- Cost 
 		- Advance amount 
 		- Ride Status 
-		- 
+	
 	- Display all active/completed rides
 	- Customer can book a ride by making the advance payment
 	- Rider can cancel the ride.
